@@ -1,0 +1,3 @@
+This is a convolutional neural network trained with an 80/20 split on the MNIST database. The code used to train the model is in NumberRecog. The model is number_cnn1.keras, and if you want to run inferences on your own images, the notebook ImageDetector is available.
+The preprocessing stage requires reshaping to 28x28, greyscale conversion, normalization, and scaling the image so the background is white. Sample images that I used for testing are also attached. I achieved 99.2% accuracy, and the better handwriting the better the model.
+My plan for this model is to further integrate with edge detection software such that math equations can be recognized and formatted into latex, and then used in a wolfram alpha plugin.
